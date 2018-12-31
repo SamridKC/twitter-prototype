@@ -1,0 +1,99 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 17, 2018, 9:03:00 PM
+    Author     : Bhuwan
+*/
+
+#header {
+    margin: 0px;
+    overflow: auto;
+    color: white;
+    height: 5%;
+    font-size: 100%;
+    display: block;
+}
+
+#signout{
+    float: right;
+    margin-left: 10px;
+}
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 100%;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #2196F3;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+form.example input[type=text] {
+  /* padding: 10px; */
+  border-radius: 0px;
+  margin-top: 10px;
+  font-size: 14px;
+  border: 1px solid grey;
+  float: right;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: right;
+  margin-top: 9px;
+  /* border-radius: 0; */
+  width: 17%;
+  padding: 4px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}

@@ -1,0 +1,317 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 17, 2018, 10:12:41 PM
+    Author     : Bhuwan
+*/
+ 
+input {
+    position: relative;
+    font-size: 120%;
+    width: 250px;
+    height: 25px;
+    border-radius: 6px;
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+    margin-bottom: 0px;
+}
+html, body {   
+    margin: auto; 
+    padding: 0;
+    background-image: url("Background2.jpg");
+    background-size: cover;
+}
+
+h1 { 
+    font-size: 140%;
+    color: teal;
+    margin-bottom: .5em;
+}
+
+h2 {
+    font-size: 200%;
+    color:#1da1f2;
+    text-align:center;
+}
+
+
+.notVisible {
+    Display: none;
+}
+
+.isVisible {
+    Display: inline;
+    font-size: 90%;
+    color: red;
+}
+
+span {
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+#container{
+    height: 90%;
+    position: absolute;
+}
+
+#mainDiv {
+    text-align: center;
+    padding-bottom: 300px;
+    padding: 10px;
+    width: 550px;
+    height: auto;
+    margin-top: 100px;
+    margin: auto;
+    /*background-color: #92d3ed;*/
+    background-color: white;
+
+}
+
+input[type="submit"] {
+    margin: 4px auto;
+    background-color: #1da1f2;
+    border: 1px solid #1da1f2;
+    color: #fff;
+    border-radius: 100px;
+    font-size: 130%;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 2px 7px;
+    width: 100px;  
+    height: 40px;
+}
+input[type="submit"]:hover {
+    background-color: #2196F3;
+}
+
+input[type="submit"]:active {
+    background-color: grey;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+input[type="checkbox"] { 
+    width: auto;
+    height: auto;
+    border-radius: 6px;
+    margin-left:auto;
+    margin-right:auto;
+    display: inline;
+}
+
+
+p {
+    color:black;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+p#errorLogin {
+    margin: 0px;
+    color: red;
+}
+
+p#Fname {
+    font-weight: bold;
+    font-size: 150%; 
+}
+
+p#pTrend {
+    font-size: 200%;
+    padding: 0.1em;
+}
+
+p#mytweets {
+    font-size: 120%;
+    color: #2196F3;
+}
+
+#MainDiv {
+    position:absolute;
+    margin: 12px;
+    height:88%;
+    width:98%;
+}
+
+#Left {
+    float: left;
+    height:98%;
+    margin-right: 15px;
+    width:20%;
+}
+
+#topLeft {
+    background: linear-gradient(0deg, white 22%, #2196F3 63%);
+    height: 25%;
+    top: 0;
+    text-align: center;
+    min-height: 150px
+}
+
+#bottomLeft {
+    margin-top: 10px;
+    /* position: absolute; */
+    background-color: white;
+    text-align: center;
+    height: 75%;
+    bottom:0;
+}
+
+#Right {
+    float: right;
+    height:98%;
+    margin-left: 15px;
+    width:20%;
+    background-color: white;
+}
+
+#topRight {
+    background-color: red;
+    height: 25%;
+    top: 0;
+}
+
+#bottomRight {
+    margin-top: 10px;
+    /* position: absolute; */
+    background-color: blue;
+    height: 75%;
+    bottom:0;
+}
+
+#Middle {
+    /* margin:0 auto; */
+    margin-left: 21.5%;
+    margin-right: 21.5%;
+    height:98%;
+    width:auto;
+}
+
+#topMiddle {
+    align-content: center;
+    height: 25%;
+    background-color: #e6ecf0;
+    top: 0;
+}
+
+#bottomMiddle {
+    margin-top: 10px;
+    /* position: absolute; */
+    height: 75%;
+    bottom:0;
+}
+
+textArea {
+    left: 5px;
+    top: 8px;
+    position: relative;
+    border-radius: 10px;
+    height: 115px;
+    width: 97%;
+    /* padding: 10px; */
+    border-size: 5px;
+    display: block;
+    font-size: 120%;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+a#tweetButton {
+    margin: auto;
+    bottom: 0;
+    position: relative;
+}
+
+span#tweetdisplay  {
+    font-size: 130%;
+    color: black;
+    padding-left: 2px;
+    margin-bottom: 4px;
+    margin: 0;
+}
+
+span#tweetauthor {
+    font-size: 70%;
+    color: black;
+    padding-left: 2px;
+}
+
+#topLeft p{
+    font-size: 2.1vh;
+}
+
+#Right p {
+    font-size: 2.1vh;
+    margin-left: 0.5em;
+}
+
+.blueX {
+    color:#2196F3;
+    text-decoration: none;
+}
+
+.blueX:hover {
+    text-decoration: underline;
+}
+
+#Right h4 {
+    font-size: 3vh;
+    color: black;
+    margin-bottom: .5em;
+    margin-top: 0.1em;
+    margin-left: 0.1em;
+}
+a#d{
+    color: black;
+    font-size: 60%;
+    float: right;
+    margin-right: 9px;
+    display: flex;
+    background: none;
+    padding: 4px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    border-style: groove;
+}
+
+a#f{
+    color: #2196F3;
+    font-size: 60%;
+    float: right;
+    margin-right: 9px;
+    background: none;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    border-style: groove;
+}
+
+
+ul#tweets{
+    border-style: groove;
+    background-color: white;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+a.disp {
+    display: inline-block;
+    width: 30%;
+}
+
+
